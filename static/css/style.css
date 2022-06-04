@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Kanit:wght@500&display=swap');
+
+body,
+html {
+    text-align: center;
+    margin: 0;
+    background-color: #EBF3FA;
+}
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+h3 {
+    font-family: 'Hind', sans-serif;
+}
+
+table,
+td,
+th {
+    border: 1px solid #aaa;
+    margin: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
+
+.button {
+    border: 4px solid rgb(231, 255, 202);
+    border-radius: 64px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button:hover {
+    margin-top: 16px;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: aquamarine;
+}
+
+.rectangle {
+    border: 4px solid #2986CC;
+    border-radius: 64px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.btn-1 {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 64px;
+    margin: 2px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.btn-2 {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 64px;
+    margin: 2px;
+    padding: 2px;
+    font-size: 18px;
+}
+
+.btn-3{
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 48px;
+    font-size: 15px;
+    padding: 4px;
+    margin: 4px;
+    color: black;
+}
